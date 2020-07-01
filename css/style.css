@@ -82,8 +82,8 @@ main::after {
 .box1,.box2,.box3 {
   float: left;
   background-color: #fff;
-  border-radius: 3px;
-  font-family: roboto, sans-serif;
+  border-radius: 4px;
+  font-family: Roboto, sans-serif;
 }
 
 .fa-rss-square {
@@ -127,6 +127,7 @@ footer {
   font-size: 12px;
   font-family: roboto, sans-serif;
   color: Grey;
+  padding: 2px;
 }
 
 .fa-facebook-square{
@@ -148,10 +149,11 @@ footer {
   position: absolute;
   top: 50%;
   right: 25%;
-  transform: translate(-25% , -50%);
+  transform: translate(-50% , -25%);
 }
 
 .fa-facebook-square, .fa-instagram, .fa-linkedin-in {
-  width: 24px;
+  display: inline-block;
   height: 24px;
+  width: 24px;
 }
