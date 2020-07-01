@@ -4,14 +4,45 @@
   padding: 0;
 }
 
+body {
+  background-image: url("../img/sfondo.png");
+  background-size: cover;
+}
+
 .container {
   width: 1000px;
   margin: auto;
 }
 
-header {
-  height: 200px;
-  background-color: yellow;
+.header-top {
+  position: relative;
+  height: 300px;
+  background-image: url("../img/header.jpg");
+  border: 5px solid #fff;
+  margin-top: 10px;
+}
+
+.container-logo {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50% , -50%);
+  font-family:sans-serif;
+  text-align: center;
+  text-transform: uppercase;
+  color: #fff;
+}
+
+h1 {
+  display: inline-block;
+  font-size: 50px;
+  border: 2px solid #fff;
+  margin-bottom: 10px;
+  padding: 10px;
+}
+
+h2 {
+  padding: 10px;
 }
 
 main {
