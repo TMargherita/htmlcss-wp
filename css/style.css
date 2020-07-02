@@ -130,30 +130,28 @@ footer {
   padding: 2px;
 }
 
-.fa-facebook-square{
+.box-f {
   position: absolute;
   top: 50%;
-  left: 25%;
-  transform: translate(-50%, -25%);
-  background-color: white;
+  left: 15%;
+  transform: translate(-50%, -15%);
+  background-color: #fff;
 }
 
-.fa-instagram {
+.box-ig{
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
 }
 
-.fa-linkedin-in {
+.box-lin {
   position: absolute;
   top: 50%;
-  right: 25%;
-  transform: translate(-50% , -25%);
+  right: 15%;
+  transform: translate(-50% , -15%);
 }
 
-.fa-facebook-square, .fa-instagram, .fa-linkedin-in {
+.box-f, .box-ig, .box-lin {
   display: inline-block;
-  height: 24px;
-  width: 24px;
 }
